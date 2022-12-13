@@ -19,4 +19,4 @@ images.forEach(el => {
     "beforeend",
     `<li style="padding: 10px; list-style-type: none;   " ><img height="200" width="300" src="${el.url}" alt="${el.alt} "/></li>`
   );
-})(edited);
+});
